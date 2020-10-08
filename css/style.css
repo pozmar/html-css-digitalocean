@@ -123,8 +123,7 @@
   font-weight: bold;
 }
 #s5{
-  background-color: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,72,197,1) 100%);
+  background: linear-gradient(to top, #0f214d,#163275, #1d3e8f, #244cad);
 }
 #s5 p, #s5 a{
   display: inline-block;
