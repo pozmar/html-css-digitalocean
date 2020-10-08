@@ -1,9 +1,71 @@
 [class*="row"]{
   border: 1px solid black;
-
 }
 [class*="col-"]{
   border: 1px solid red;
+}
+
+.navbar{
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 0;
+  background-color: white;
+}
+.navbar img{
+  width: 60%;
+  height: auto;
+}
+.navbar ul{
+  list-style: none;
+  display: inline;
+  float: right;
+}
+.navbar ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.navbar ul li a{
+color: #2a347a;
+}
+.navbar .btn{
+  color: #0c6cb0;
+  background-color: white;
+  border-color: #0c6cb0;
+}
+.navbar .burger{
+  text-align: right;
+}
+#top{
+  background-color: lightblue;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+#bottom{
+  background-color: white;
+  color: black;
+    border: none;
+    box-shadow: 2px 2px lightgrey;
+    margin-top: 20px;
+  }
+.box p{
+  font-size: 1.5rem;
+  margin-top: 20px;
+
+}
+.left p{
+  color: lightgrey;
+}
+.jumbotron h3{
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+#s1{
+  line-height: 50px;;
+}
+#s1 p{
+  font-weight: bold;
+  color: grey;
 }
 .h-100{
   height: 100px;
@@ -14,8 +76,17 @@
 .h-200{
   height: 200px;
 }
+
 .jumbotron{
   border: 1px solid green;
+  background-image: url("../img/sfondo.svg");
+}
+.left{
+  color: white;
+
+}
+.box{
+  background-color: white;
 }
 .box{
   border: 1px solid pink;
@@ -37,4 +108,8 @@
   width: 40%;
   border: 1px solid black;
   margin: auto;
+}
+.dati .btn{
+  text-align: center;
+  width: 100%;
 }
