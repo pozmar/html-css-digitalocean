@@ -1,9 +1,3 @@
-[class*="row"]{
-  border: 1px solid black;
-}
-[class*="col-"]{
-  border: 1px solid red;
-}
 
 .navbar{
   height: 100px;
@@ -25,7 +19,7 @@
   margin-left: 10px;
 }
 .navbar ul li a{
-color: #2a347a;
+  color: #2a347a;
 }
 .navbar .btn{
   color: #0c6cb0;
@@ -44,10 +38,10 @@ color: #2a347a;
 #bottom{
   background-color: white;
   color: black;
-    border: none;
-    box-shadow: 2px 2px lightgrey;
-    margin-top: 20px;
-  }
+  border: none;
+  box-shadow: 2px 2px lightgrey;
+  margin-top: 20px;
+}
 .box p{
   font-size: 1.5rem;
   margin-top: 20px;
@@ -70,7 +64,7 @@ color: #2a347a;
 #s2 h3{
   color: #2a347a;
 }
-#s2 p{
+#s2 p, #s4 p{
   color: grey;
 }
 #s2 li{
@@ -79,11 +73,11 @@ color: #2a347a;
   padding-top: 10px;
   color: grey;
 }
-#s2 h4{
+#s2 h4, #s4 h4{
   color: #2a347a;
   font-weight: bold;
 }
-#s3 .bg{
+#s3{
   background-color: lightgrey;
 }
 #s3 .up{
@@ -91,8 +85,8 @@ color: #2a347a;
   margin-top: 30px;
 }
 #s3 h3{
-color:  #2a347a;
-line-height: 100px;
+  color:  #2a347a;
+  line-height: 100px;
 }
 #s3 .slider{
   margin-top: 100px;
@@ -120,6 +114,38 @@ line-height: 100px;
   color: blue;
   background-color: blue;
 }
+#s4 h3{
+  color:  #2a347a;
+  font-weight: bold;
+}
+#s5 h3{
+  color: white;
+  font-weight: bold;
+}
+#s5{
+  background-color: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,72,197,1) 100%);
+}
+#s5 p, #s5 a{
+  display: inline-block;
+  color: white;
+}
+#s5 a{
+  float: right;
+}
+
+#s5 .elenco{
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#s5 .center{
+  margin-left: 40px;
+}
+#s6 h3{
+  color: #2a347a;
+  font-weight: bold;
+}
 .h-100{
   height: 100px;
 }
@@ -129,7 +155,9 @@ line-height: 100px;
 .h-200{
   height: 200px;
 }
-
+.h-300{
+  height: 300px;
+}
 .jumbotron{
   border: 1px solid green;
   background-image: url("../img/sfondo.svg");
@@ -157,6 +185,10 @@ line-height: 100px;
 [class*="box-"]{
   border: 1px solid orange;
 }
+.frecce{
+  height: 100%;
+  align-items: center;
+}
 .slider{
   width: 40%;
   border: 1px solid black;
@@ -165,4 +197,35 @@ line-height: 100px;
 .dati .btn{
   text-align: center;
   width: 100%;
+}
+#s7{
+  color: white;
+  background: linear-gradient(to top, #26309e, #2531b8, #416bcc);
+}
+#footer{
+  background-color: #1f2670;
+}
+#footer p, #footer a{
+  color: lightgrey;
+}
+#footer h4{
+  color: white;
+  font-weight: bold;
+}
+#footer ul{
+  list-style: none;
+  padding: 0;
+}
+#footer li{
+  margin-top: 5px;
+}
+#footer i{
+  color: lightgrey;
+  margin-right: 10px;
+}
+a:hover{
+  cursor: pointer;
+}
+#footer .push{
+  margin-top: 40px;
 }
