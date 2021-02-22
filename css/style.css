@@ -1,4 +1,11 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .navbar{
   height: 100px;
   line-height: 100px;
@@ -74,6 +81,9 @@
   width: 15px;
   float: left;
 }
+h3{
+  padding-top: 40px;
+}
 #s1{
   line-height: 50px;
   background-color: #f7f7f7;
@@ -98,6 +108,7 @@ display: inline-block;
 
 #s2 h3{
   color: #2a347a;
+  font-weight: bold;
 }
 #s2 p, #s4 p{
   color: grey;
@@ -123,7 +134,6 @@ display: inline-block;
 }
 #s3 h3{
   color:  #2a347a;
-  line-height: 100px;
 }
 #s3 .slider{
   margin-top: 100px;
@@ -144,7 +154,6 @@ display: inline-block;
   border: 1px solid blue;
   display: inline-block;
   margin-left: 10px;
-  margin-top: 70px;
   margin-bottom: 50px;
 }
 .dot:hover{
@@ -187,7 +196,9 @@ display: inline-block;
   color: #2a347a;
   font-weight: bold;
 }
-
+#s6 .dot{
+  margin-top: 30px;
+}
 .jumbotron{
   background-image: url("../img/sfondo.svg");
   margin-bottom: 0;
