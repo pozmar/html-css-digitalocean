@@ -241,9 +241,7 @@ display: inline-block;
 .centrale{
   width: 100%;
   position: relative;
-
 }
-
 .sinistra{
   position: absolute;
   top: 50%;
@@ -256,7 +254,6 @@ display: inline-block;
   left: 85%;
   transform: translate(-50%);
 }
-
 .slider{
   width: 60%;
   margin: auto;
@@ -301,6 +298,9 @@ display: inline-block;
 #footer i{
   color: lightgrey;
   margin-right: 10px;
+}
+#mark{
+  margin-bottom: 10px;
 }
 a:hover{
   cursor: pointer;
